@@ -37,10 +37,10 @@ os-simulator/
 ```
 
 ### Toolchain checklist
-- [ ] Install emsdk, run `./emsdk install latest && ./emsdk activate latest`, source `emsdk_env.sh`
-- [ ] `emcc --version` works
-- [ ] Create React app (Vite recommended over CRA — faster, simpler WASM asset handling)
-- [ ] Compile a trivial `int add(int a, int b)` C file to WASM, call it from React, log result to console
+- [x] Install emsdk, run `./emsdk install latest && ./emsdk activate latest`, source `emsdk_env.sh`
+- [x] `emcc --version` works
+- [x] Create React app (Vite recommended over CRA — faster, simpler WASM asset handling)
+- [x] Compile a trivial `int add(int a, int b)` C file to WASM, call it from React, log result to console
 
 **Milestone 0:** React button click → calls into WASM → C function returns a value → displayed on screen. This proves the whole toolchain works before you write any real logic.
 

@@ -10,6 +10,7 @@
     "build": "npm ci && tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "build:wasm": "../core/build.sh",
     "start": "vite preview --host 0.0.0.0 --port 4173"
   },
   "dependencies": {
