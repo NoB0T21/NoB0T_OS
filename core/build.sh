@@ -19,8 +19,8 @@ emcc $C_FILES \
   -s EXPORT_ES6=1 \
   -s ENVIRONMENT=web \
   -s EXPORT_NAME='createMathModule' \
-  -s EXPORTED_FUNCTIONS='["_add","_fibonacci"]' \
+  -s EXPORTED_FUNCTIONS='["_add","_fibonacci","_get_ram_base","_get_ram_size"]' \
   -s EXPORTED_RUNTIME_METHODS='["cwrap","ccall"]' \
-  -o ./build/wasm/math.js
+  -o ../web/build/wasm/os.js
 
-echo "Build complete: ./build/wasm"
+echo "Build complete:web/build/wasm"
