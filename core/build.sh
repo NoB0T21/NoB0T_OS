@@ -19,8 +19,8 @@ emcc $C_FILES \
   -s EXPORT_ES6=1 \
   -s ENVIRONMENT=web \
   -s EXPORT_NAME='createMathModule' \
-  -s EXPORTED_FUNCTIONS='["_add","_fibonacci","_get_ram_base","_get_ram_size"]' \
-  -s EXPORTED_RUNTIME_METHODS='["cwrap","ccall"]' \
+  -s EXPORTED_FUNCTIONS='["_Kernel_init", "_kalloc","_kfree","_get_ram_base","_get_ram_size","_get_heap_snapshot","_get_snapshot_buffer"]' \
+  -s EXPORTED_RUNTIME_METHODS='["cwrap","ccall","getValue","HEAP32"]' \
   -o ../web/build/wasm/os.js
 
 echo "Build complete:web/build/wasm"
