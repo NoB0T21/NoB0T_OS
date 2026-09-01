@@ -1,0 +1,1 @@
+{"root":["./src/App.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/bridge/useKernel.tsx","./src/components/Home/HomeLayout.tsx","./src/components/Home/RamSidebar.tsx","./src/components/ui/sonner.tsx","./src/components/ui/tooltip.tsx","./src/lib/utils.ts","./src/pages/HomeScreen.tsx","./src/utils/os/kernel.ts"],"version":"6.0.3"}
